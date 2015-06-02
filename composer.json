@@ -1,0 +1,31 @@
+{
+	"name": "valerian/fioapi",
+	"type": "library",
+	"description": "FIO bank API",
+	"keywords": ["fio", "fio api"],
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Miroslav Valerian",
+			"homepage": "http://www.miroslav-valerian.cz",
+			"email": "info@miroslav-valerian.cz"
+		}
+	],
+	"support": {
+		"email": "info@miroslav-valerian.cz",
+		"issues": "https://github.com/miroslav-valerian/FioApi/issues"
+	},
+	"require": {
+		"php": ">=5.3.1",
+		"valerian/curl": "~0.1"
+	},
+	"require-dev": {
+		"php": ">=5.3.1",
+		"valerian/curl": "~0.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Valerian\\": "src/"
+		}
+	}
+}
